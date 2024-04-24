@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  color: rgb(223, 15, 209);
+  font-size: 30px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  /* font-weight: 400; */
+}
+/* id */
+#fname {
+  padding: 6px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(74, 81, 180);
+  border-color: blue;
+}
+
+#labelMain:hover {
+  color: red;
+}
+
+/* class */
+.inputName label {
+  display: block;
+}
+
+.inputName input {
+  display: block;
+}
+
+.inputName {
+  display: flex;
+}
+
+.box-main {
+  border: 1px solid black;
+  background-color: bisque;
+}
+
+.box-child {
+  /* padding: 10px; */
+  padding: 10px 20px 30px 50px;
+  /* margin: 5px; */
+  margin: 10px 50px 15px 5px;
+  border: 1px solid black;
+}
