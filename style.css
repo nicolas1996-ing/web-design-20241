@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_div_class {
+  margin: 10px;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+#main_div_id {
+  margin: 30px;
+}
+
+.h1_main_class {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.p_main_class {
+  color: rgb(229, 14, 14);
+}
