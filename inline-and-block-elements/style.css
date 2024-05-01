@@ -10,8 +10,8 @@
   text-align: center;
   /* display: block; */
   /* display: inline; */
-  display: inline-block;
-  /* display: none; */
+  /* display: inline-block; */
+  display: none;
   width: 200px;
 }
 
@@ -30,13 +30,23 @@
 
 .ul_list {
   display: block;
-  background-color: #001550;
-  color: white;
+  background-color: #4fcf0f;
+  color: blueviolet;
   padding: 14px 0px;
   text-align: center;
+  height: 9vh;
+  /* height: 100px; */
 }
 .li_item {
   display: inline-block;
   align-content: center;
   margin: 0 30px;
+}
+.li_item_firs {
+  color: black;
+  background-color: bisque;
+  padding: 10px;
+}
+.li_item_span {
+  color: crimson;
 }
