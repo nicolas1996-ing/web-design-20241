@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.main_div_class {
+/* .main_div_class {
   margin: 10px;
   padding: 10px;
   background-color: aquamarine;
@@ -24,4 +24,71 @@
 
 .p_main_class {
   color: rgb(229, 14, 14);
+} */
+
+img {
+  height: 53px;
+  width: 69px;
+}
+
+ol {
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
+li {
+  display: inline-block;
+  margin: 0px 10px;
+  vertical-align: middle;
+}
+
+/* .item_list {
+  line-height: 50px;
+} */
+
+body {
+  background-color: rgb(184, 183, 183);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(243, 220, 192);
+  }
+  a {
+    color: rgb(234, 36, 36);
+  }
+  ol {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+  }
+}
+
+@media (min-width: 768px) and (max-width: 868px) {
+  body {
+    background-color: blue;
+  }
 }
